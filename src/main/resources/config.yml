@@ -1,0 +1,22 @@
+# Plugin Offhand by yvant (eror414)
+# Telegram: yvant_dev
+# Discord: yvant.exe
+
+messages:
+  moved-to-offhand: "&aItem moved to offhand."
+  no-item-in-hand: "&cYou are not holding any item."
+  blocked-item: "&cYou cannot move this item to offhand."
+  reload-success: "&ePlugin Offhand Yvant Reloaded"
+
+blocked-items:
+  - BEDROCK
+  - COMMAND_BLOCK
+  - BARRIER
+
+sounds:
+  move:
+    enable: true
+    type: "block.note_block.pling"
+  fail:
+    enable: true
+    type: "entity.villager.no"

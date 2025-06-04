@@ -1,0 +1,13 @@
+name: Offhand
+version: 1.0
+main: me.yvant.yvant.java
+api-version: 1.19
+commands:
+  offhand:
+    description: Swap item to offhand
+    aliases: [oh]
+    usage: /offhand
+permissions:
+  offhand.reload:
+    description: Allows reloading the plugin
+    default: op
